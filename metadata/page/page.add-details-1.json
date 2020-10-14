@@ -1,0 +1,66 @@
+{
+  "_id": "page.add-details-1",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.add-details-1--number.auto_name__2",
+      "_type": "number",
+      "hint": "LPA reference numbers are 12 numbers long\r\n\r\nFor example, 7000-0000-0000",
+      "label": "LPA reference number",
+      "name": "auto_name__2"
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.add-details-1--details",
+      "_type": "details",
+      "html": "* The reference number is printed on the letter that told you the LPA had been registered.\r\n* You can also find the reference number on the LPA or any related letters from the Office of the Public Guardian.\r\n* It may be marked 'OPG reference number' or 'Our ref' or 'Case number'.",
+      "summary": "Where to find the LPA reference number"
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.add-details-1--content",
+      "_type": "content",
+      "html": "# Your details"
+    },
+    {
+      "_id": "page.add-details-1--content--2",
+      "_type": "content",
+      "html": "The donor and each of the attorneys will have their own activation key. The activation key and date of birth must be for the same person."
+    },
+    {
+      "_id": "page.add-details-1--text.auto_name__3",
+      "_type": "text",
+      "hint": "Activation keys are 13 numbers and letters long and start with a C\r\n\r\nFor example, C-AB12 CD34 EF56",
+      "label": "Activation key",
+      "name": "auto_name__3"
+    },
+    {
+      "_id": "page.add-details-1--hidden.auto_name__4",
+      "_type": "hidden",
+      "name": "auto_name__4"
+    },
+    {
+      "_id": "page.add-details-1--details--2",
+      "_type": "details",
+      "html": "Your activation key is printed on the letter that told you the LPA had been registered. The donor and each attorney will have their own unique activation key.\r\n\r\nIf you cannot find it, please request a new activation key.",
+      "summary": "Where to find the activation key"
+    },
+    {
+      "_id": "page.add-details-1--date.auto_name__5",
+      "_type": "date",
+      "legend": "What is your date of birth?",
+      "name": "auto_name__5"
+    }
+  ],
+  "heading": "Add a lasting power of attorney",
+  "lede": "You'll need the details from the letter we sent you when the lasting power of attorney (LPA) was registered",
+  "url": "add-details-1"
+}

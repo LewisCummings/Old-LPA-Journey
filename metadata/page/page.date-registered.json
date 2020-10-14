@@ -1,0 +1,23 @@
+{
+  "_id": "page.date-registered",
+  "_type": "page.form",
+  "body": "To add an LPA without an activation key, you’ll need to enter some information from the paper LPA. Make sure you have it with you before continuing.",
+  "components": [
+    {
+      "_id": "page.date-registered--details",
+      "_type": "details",
+      "html": "* If someone else has the paper LPA, you’ll need to get the information from them\r\n* If the paper LPA has been lost or destroyed, you can ask the Office of the Public Guardian for an office copy by calling 0300 456 0300 - office copies cost £35 \r\n",
+      "summary": "If you do not have the paper LPA"
+    },
+    {
+      "_id": "page.date-registered--date.auto_name__6",
+      "_type": "date",
+      "hint": "The registration date is on **section 1** (page 1) of the paper LPA.\r\n\r\n[% hint.date %]",
+      "legend": "When was the LPA registered?",
+      "name": "auto_name__6"
+    }
+  ],
+  "heading": "Add an LPA without an activation key",
+  "lede": "Only LPAs registered after September 2019 can be added to your account.  ",
+  "url": "date-registered"
+}
